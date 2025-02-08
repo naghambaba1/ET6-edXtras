@@ -20,11 +20,11 @@ repeated_string = ''
 
 # Stepper variable for counting repetitions
 i = 0
-while __:
-    repeated_string = __
+while i <total_repetitions :
+    repeated_string +=to_repeat
     print(repeated_string)
     
-    __  # Increment the stepper variable
+    i +=1  # Increment the stepper variable
 
 assert repeated_string == 'howdyhowdyhowdyhowdy', '"howdy" should be repeated 4 times'
 
